@@ -12,7 +12,6 @@
         $resTab = [];
 
         foreach ($data as $interval) {
-            //var_dump($current);
             if (empty($resTab)) {
                 //remplir le nouveau tableau par les intervalles du tableau initial
                 $resTab = $interval;
